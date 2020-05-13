@@ -5,7 +5,8 @@ const http = require('http').Server(app);
 const io = require('socket.io')(http);
 const port = process.env.PORT || 3001;
 
-app.use(express.static(__dirname + '/ui-react/build'));
+//app.use(express.static(__dirname + '/ui-react/build'));
+app.use(express.static(__dirname + '/public'));
 
 function onConnection(socket){
   socket.on('drawing', function(data){
