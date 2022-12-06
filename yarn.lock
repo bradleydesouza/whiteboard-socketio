@@ -472,10 +472,10 @@ qs@2.2.4:
   resolved "https://registry.yarnpkg.com/qs/-/qs-2.2.4.tgz#2e9fbcd34b540e3421c924ecd01e90aa975319c8"
   integrity sha1-Lp+800tUDjQhySTs0B6QqpdTGcg=
 
-qs@6.0.4:
-  version "6.0.4"
-  resolved "https://registry.yarnpkg.com/qs/-/qs-6.0.4.tgz#51019d84720c939b82737e84556a782338ecea7b"
-  integrity sha1-UQGdhHIMk5uCc36EVWp4Izjs6ns=
+qs@6.2.4:
+  version "6.2.4"
+  resolved "https://registry.yarnpkg.com/qs/-/qs-6.2.4.tgz#d90821bb8537cecc140e6c34f54ec76e54b39b22"
+  integrity sha512-E57gmgKXqDda+qWTkUJgIwgJICK7zgMfqZZopTRKZ6mY9gzLlmJN9EpXNnDrTxXFlOM/a+I28kJkF/60rqgnYw==
 
 range-parser@~1.0.2:
   version "1.0.3"
@@ -486,6 +486,22 @@ range-parser@~1.2.1:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/range-parser/-/range-parser-1.2.1.tgz#3cf37023d199e1c24d1a55b84800c2f3e6468031"
   integrity sha512-Hrgsx+orqoygnmhFbKaHE6c296J+HTAQXoxEF6gNupROmmGJRoyzfG3ccAveqCBrwr/2yxQ5BVd/GTl5agOwSg==
+
+send@0.9.3:
+  version "0.9.3"
+  resolved "https://registry.yarnpkg.com/send/-/send-0.9.3.tgz#b43a7414cd089b7fbec9b755246f7c37b7b85cc0"
+  integrity sha512-XT6wlKiDYip1xFylnX4y3cDej4RmDk/DuOCEhzXd4Lprb1DVMTU9o0N739te05nVwJ51IughQGWMsISrAm6GSg==
+  dependencies:
+    debug "~2.0.0"
+    depd "0.4.5"
+    destroy "1.0.3"
+    escape-html "1.0.1"
+    etag "~1.4.0"
+    fresh "0.2.4"
+    mime "1.2.11"
+    ms "0.6.2"
+    on-finished "2.1.0"
+    range-parser "~1.0.2"
 
 send@^0.17.1:
   version "0.17.1"
